@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+header {
+  background-color: #3b5998;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.login-form {
+  display: flex;
+  gap: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main {
+  padding: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.status-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.status-form button {
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.posts {
+  margin-top: 20px;
+}
+
+.post {
+  display: flex;
+  gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.post img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post-content h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #3b5998;
+  color: #fff;
+}
+
+/* ... Styles précédents ... */
+
+/* Style pour les liens */
+a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+/* Style pour les boutons "S'inscrire" et "Connexion" */
+.login-form button,
+.status-form button {
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.login-form button:hover,
+.status-form button:hover {
+  background-color: #166fe5;
+}
+
+/* Style pour les publications */
+.post-content {
+  width: 100%;
+}
+
+.post-content p {
+  margin: 0;
+}
+
+/* Style pour le lien "Nouveau compte" */
+.new-account-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.new-account-link a {
+  color: #1877f2;
+  font-size: 14px;
+}
+
+/* Style pour le pied de page */
+footer p {
+  font-size: 12px;
+}
+
+/* Style pour les icônes des boutons */
+.icon-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style pour les icônes "Like", "Commenter" et "Partager" */
+.like-icon,
+.comment-icon,
+.share-icon {
+  margin-right: 5px;
+}
+
+/* Style pour les icônes "Like", "Commenter" et "Partager" lorsqu'ils sont actifs */
+.like-active,
+.comment-active,
+.share-active {
+  color: #1877f2;
+}
